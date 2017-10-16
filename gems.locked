@@ -19,9 +19,11 @@ GEM
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
+    minitest (5.10.3)
     netrc (0.11.0)
     opus-ruby (1.0.1)
       ffi
+    rake (12.1.0)
     rbnacl (3.4.0)
       ffi
     rest-client (2.0.2)
@@ -42,6 +44,8 @@ PLATFORMS
 DEPENDENCIES
   discordrb
   dotenv
+  minitest
+  rake
 
 BUNDLED WITH
    1.15.4
