@@ -1,12 +1,12 @@
 class Erangel
   # coordinates that do not consist of only water:
   POSSIBLE_COORDINATES =
-    %w{EI FI GI
+    %w{               FI GI
        AJ BJ CJ DJ EJ FJ GJ
        AK BK CK DK EK FK GK
        AL BL CL DL EL FL GL
        AM BM CM DM EM FM GM HM
-       AN BN CN DN EN FN GN HN
+       AN BN CN DN EN FN GN
           BO    DO EO FO GO}
 
     POSSIBLE_PLACES = [
