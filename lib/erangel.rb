@@ -35,11 +35,24 @@ class Erangel
       'Sosnovka Military Base'
     ]
 
+    POSSIBLE_ALTERNATIVES = [
+      'anhöhe',
+      'first row',
+      'blue house',
+      'other side of the street',
+      'warehouse',
+      'western compound'
+    ]
+
   def self.random_coordinate
     POSSIBLE_COORDINATES.sample
   end
 
   def self.random_place
     POSSIBLE_PLACES.sample
+  end
+
+  def self.random_alternative
+    "#{POSSIBLE_ALTERNATIVES.sample} in Rozhok"
   end
 end

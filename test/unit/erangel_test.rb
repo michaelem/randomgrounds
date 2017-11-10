@@ -17,4 +17,10 @@ class ErangelTest < Minitest::Test
     result = Erangel.random_place
     assert result.is_a? String
   end
+
+  def test_random_alternative
+    result = Erangel.random_place
+    assert result.is_a? String
+    assert result.include? "Rozhok"
+  end
 end
